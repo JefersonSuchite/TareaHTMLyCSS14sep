@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/Estilos.css"/>
+    <title>Actividad</title>
+</head>
+<body>
+<div id="container">
+<section id="content">
+    <header><h1>Este es un texto de ejemplo para un titulo h1</h1></header>
+    <br><h2>Hola Inge, este es un ejemplo de titulo con etiqueta h2</h2><br>
+    <form action="">        
+        <br>      
+        <label for=""></i> Usuario</label><br>
+        <input type="text" class="field" name="usuario" id="" placeholder="XX-XXXXX"> <br><br>
+
+        <label for="">Contraseña</label><br>
+        <input type="password" class="field" name="contraseña" id="" placeholder="XXXX">
+        <br><br>
+        <input type="button" class="btn btn-green"  value="Ingresar" onclick="login(this.form)">
+        <br><br>          
+    </form>
+    <script>
+        function login(form){
+            if (form.usuario.value=="22-12681"){
+                if (form.contraseña.value=="2023") {
+                    alert("Ingreso Exitoso!");
+                } else {
+                    alert("Error de contraseña");
+                }
+            } else {
+                alert("Error de Usuario");
+            }
+        }
+    </script>
+    <br><a href="Final.html" class="btn-neon" id="neon1" onclick="Hola">Salir</a><br>
+</section>
+</div>
+</body>
+</html>
