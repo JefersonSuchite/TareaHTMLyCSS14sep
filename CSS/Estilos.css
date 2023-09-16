@@ -34,16 +34,6 @@ header{
     text-align: center;
 }
 
-.clearfix{
-    clear: both;
-}
-#imgd{
-    display: none;
-}
-#imgq{
-    display: none;
-}
-
 .btn{
     border-radius: 3px;
     display: inline-block;
